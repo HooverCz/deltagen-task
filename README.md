@@ -51,14 +51,6 @@ Internally, the "just run" command performs the following actions:
     streamlit run app.py
 
 
-## Project Structure
-
-- app.py: Streamlit user interface for interactive document exploration.
-- run_ingest_vector_db.py: Script that ingests documents into the vector database.
-- justfile: Contains commands for initialization and running the project.
-- chroma_db/ and vector_db/: Directories housing the vector databases.
-- Other Python modules provide additional application functionality.
-
 ## Additional Information
 
 If needed, activate the virtual environment manually:
