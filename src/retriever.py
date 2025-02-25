@@ -2,8 +2,8 @@ from langchain.retrievers.multi_vector import MultiVectorRetriever
 from langchain.storage import LocalFileStore
 from langchain_chroma import Chroma
 
-from constants import CHROMA_PATH, DOCSTORE_PATH, ID_KEY, TOP_K_TO_RETRIEVE
-from llm import get_embedding_model
+from src.constants import CHROMA_PATH, DOCSTORE_PATH, ID_KEY, TOP_K_TO_RETRIEVE
+from src.llm import get_embedding_model
 
 def get_retriever() -> MultiVectorRetriever:
     """Creates and returns a MultiVectorRetriever instance.

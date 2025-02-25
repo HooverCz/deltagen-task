@@ -3,12 +3,13 @@ import base64
 from io import BytesIO
 
 import streamlit as st
-from PIL import Image
 from langchain_core.messages import AIMessage, HumanMessage
 from langgraph.graph.state import CompiledStateGraph
 from loguru import logger
+from PIL import Image
 
-from agent import get_agents_graph, State
+from src.agent import State, get_agents_graph
+
 
 # Initialize session state
 def init_session_state():

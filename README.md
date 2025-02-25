@@ -47,8 +47,8 @@ This command will:
 
 Internally, the "just run" command performs the following actions:
 
-    python run_ingest_vector_db.py
-    streamlit run app.py
+    python 01_ingest_vector_db.py
+    streamlit run 02_app.py
 
 
 ## Additional Information

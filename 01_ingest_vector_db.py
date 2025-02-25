@@ -8,9 +8,9 @@ from langchain.schema.document import Document
 from unstructured.documents.elements import CompositeElement
 from unstructured.partition.pdf import partition_pdf
 
-from constants import ID_KEY, PDF_PATH
-from llm import get_llm
-from retriever import get_retriever
+from src.constants import ID_KEY, PDF_PATH
+from src.llm import get_llm
+from src.retriever import get_retriever
 from loguru import logger
 
 

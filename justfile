@@ -6,5 +6,6 @@ init:
     source .venv/bin/activate
 
 run:
-    python run_ingest_vector_db.py
-    streamlit run app.py
+    rm -rf vector_db
+    python 01_ingest_vector_db.py
+    streamlit run 02_app.py
